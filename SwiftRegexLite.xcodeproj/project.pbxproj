@@ -7,19 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		E78600C71E783E0900AD8696 /* SwiftRegexLite.h in Headers */ = {isa = PBXBuildFile; fileRef = E78600C51E783E0900AD8696 /* SwiftRegexLite.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E78600CD1E783E9B00AD8696 /* RegexKitLite.h in Headers */ = {isa = PBXBuildFile; fileRef = E78600CB1E783E9B00AD8696 /* RegexKitLite.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E78600CE1E783E9B00AD8696 /* RegexKitLite.m in Sources */ = {isa = PBXBuildFile; fileRef = E78600CC1E783E9B00AD8696 /* RegexKitLite.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		E78600C71E783E0900AD8696 /* SwiftRegex.h in Headers */ = {isa = PBXBuildFile; fileRef = E78600C51E783E0900AD8696 /* SwiftRegex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E78600CD1E783E9B00AD8696 /* SwiftRegexLite.h in Headers */ = {isa = PBXBuildFile; fileRef = E78600CB1E783E9B00AD8696 /* SwiftRegexLite.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E78600CE1E783E9B00AD8696 /* SwiftRegexLite.m in Sources */ = {isa = PBXBuildFile; fileRef = E78600CC1E783E9B00AD8696 /* SwiftRegexLite.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		E78600D01E783EB100AD8696 /* SwiftRegexLite-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = E78600CF1E783EB100AD8696 /* SwiftRegexLite-Bridging-Header.h */; };
 		E78600D31E783F3000AD8696 /* libicucore.A.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E78600D21E783F3000AD8696 /* libicucore.A.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E78600C31E783E0900AD8696 /* SwiftRegexLite.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftRegexLite.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E78600C51E783E0900AD8696 /* SwiftRegexLite.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftRegexLite.h; sourceTree = "<group>"; };
+		E78600C51E783E0900AD8696 /* SwiftRegex.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftRegex.h; sourceTree = "<group>"; };
 		E78600C61E783E0900AD8696 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E78600CB1E783E9B00AD8696 /* RegexKitLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegexKitLite.h; sourceTree = "<group>"; };
-		E78600CC1E783E9B00AD8696 /* RegexKitLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegexKitLite.m; sourceTree = "<group>"; };
+		E78600CB1E783E9B00AD8696 /* SwiftRegexLite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiftRegexLite.h; sourceTree = "<group>"; };
+		E78600CC1E783E9B00AD8696 /* SwiftRegexLite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwiftRegexLite.m; sourceTree = "<group>"; };
 		E78600CF1E783EB100AD8696 /* SwiftRegexLite-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SwiftRegexLite-Bridging-Header.h"; sourceTree = "<group>"; };
 		E78600D21E783F3000AD8696 /* libicucore.A.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.A.tbd; path = usr/lib/libicucore.A.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
@@ -56,10 +56,10 @@
 		E78600C41E783E0900AD8696 /* SwiftRegexLite */ = {
 			isa = PBXGroup;
 			children = (
-				E78600CB1E783E9B00AD8696 /* RegexKitLite.h */,
-				E78600CC1E783E9B00AD8696 /* RegexKitLite.m */,
+				E78600CB1E783E9B00AD8696 /* SwiftRegexLite.h */,
+				E78600CC1E783E9B00AD8696 /* SwiftRegexLite.m */,
 				E78600CF1E783EB100AD8696 /* SwiftRegexLite-Bridging-Header.h */,
-				E78600C51E783E0900AD8696 /* SwiftRegexLite.h */,
+				E78600C51E783E0900AD8696 /* SwiftRegex.h */,
 				E78600C61E783E0900AD8696 /* Info.plist */,
 			);
 			path = SwiftRegexLite;
@@ -81,8 +81,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E78600D01E783EB100AD8696 /* SwiftRegexLite-Bridging-Header.h in Headers */,
-				E78600C71E783E0900AD8696 /* SwiftRegexLite.h in Headers */,
-				E78600CD1E783E9B00AD8696 /* RegexKitLite.h in Headers */,
+				E78600C71E783E0900AD8696 /* SwiftRegex.h in Headers */,
+				E78600CD1E783E9B00AD8696 /* SwiftRegexLite.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -157,7 +157,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E78600CE1E783E9B00AD8696 /* RegexKitLite.m in Sources */,
+				E78600CE1E783E9B00AD8696 /* SwiftRegexLite.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
