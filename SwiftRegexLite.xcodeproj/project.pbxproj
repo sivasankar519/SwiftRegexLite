@@ -119,7 +119,7 @@
 				TargetAttributes = {
 					E78600C21E783E0900AD8696 = {
 						CreatedOnToolsVersion = 8.1;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
